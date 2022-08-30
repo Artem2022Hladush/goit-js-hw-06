@@ -9,4 +9,4 @@ return input.classList.replace('valid', 'invalid');
 
 };
 
-console.log(input.addEventListener('blur', onInputBlur));
+input.addEventListener('blur', onInputBlur);
